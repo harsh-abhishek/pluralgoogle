@@ -6,7 +6,7 @@ module.exports = function () {
     passport.use(new GoogleStrategy({
             clientID: '222556587003-d48del35gflv95nt9kcg4i982h6glogu.apps.googleusercontent.com',
             clientSecret: 'Wfl_mD_b0Sh3fNCN-lcWJlvM',
-            callbackURL: 'https://pluralgoogle.herokuapp.com//auth/google/callback'
+            callbackURL: 'https://pluralgoogle.herokuapp.com/auth/google/callback'
         },
         function (req, accessToken, refreshToken, profile, done) {
             var user = {};
