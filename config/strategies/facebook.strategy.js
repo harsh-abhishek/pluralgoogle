@@ -6,7 +6,7 @@ module.exports = function () {
     passport.use(new FacebookStrategy({
             clientID: '121009168534353',
             clientSecret: '22cd582c948babacca253ffc3349aeec',
-            callbackURL: 'https://pluralgoogle.herokuapp.com/auth/facebook/callback',
+            callbackURL: 'https://auth4.herokuapp.com/auth/facebook/callback',
             passReqToCallback: true
         },
         function (req, accessToken, refreshToken, profile, done) {
