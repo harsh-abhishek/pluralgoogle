@@ -3,8 +3,8 @@ var TwitterStrategy = require('passport-twitter').Strategy;
 
 module.exports = function(){
     passport.use(new TwitterStrategy({
-        consumerKey: 'XMdFNmS90OOV8AZcHueuwnerV',
-        consumerSecret: 'K82cZEEryygSDDvbZHnyvx20rlxJDTSNZvnHWFUnrDtZb9zJ3R',
+        consumerKey: 'Tw23E7U375YsYOOn2c8v0KNNa',
+        consumerSecret: 'wfWQ5hZKJZ7riNWSpqKWQqx3WRSPUedG0OmM7GLrKmp3pbxPET',
         callbackURL: 'http://localhost:3000/auth/twitter/callback',
         passReqToCallback: true
     },
